@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: $fontWeightDefault;
+    src: url('/resources/fonts/OpenSans/OpenSans.woff2');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: $fontWeightLight;
+    src: url('/resources/fonts/OpenSans/OpenSans-Light.woff2');
+}
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: $fontWeightSemibold;
+    src: url('/resources/fonts/OpenSans/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: $fontWeightBold;
+    src: url('/resources/fonts/OpenSans/OpenSans-Bold.woff2');
+}
+

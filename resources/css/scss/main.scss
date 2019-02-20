@@ -1,0 +1,36 @@
+@import "main/normalize";
+@import "main/vars";
+@import "main/fonts/fonts";
+@import "main/mixins";
+
+html {
+    -webkit-font-smoothing: antialiased; //OS X font-width fix
+    font-size: $fontBaseSize;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamilyMain;
+    background: $backgroundColorDefault;
+    color: $color2;
+}
+
+body {
+    position: relative;
+}
+
+.body {
+    width: $bodyContainerWidth;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 98%;
+}
+
+.container{
+    width: $containerWidth;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 98%;
+}
+

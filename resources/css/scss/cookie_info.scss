@@ -1,0 +1,31 @@
+.contact_data-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cookie_info {
+    border: 1px solid rgba($colorAccent, .2);
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+
+    p {
+        margin: 0;
+        display: inline-block;
+        padding: var(--gap13) 0 var(--gap13) var(--gap13);
+    }
+
+    .btn-cookie_info_close {
+        opacity: .5;
+        transition: opacity $transitionStandardTime;
+        cursor: pointer;
+        width: 0.9em;
+        box-sizing: content-box;
+        padding: var(--gap13);
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

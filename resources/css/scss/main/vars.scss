@@ -1,0 +1,135 @@
+$fontFamilyMain: 'OpenSans';
+$fontWeightLight: 300;
+$fontWeightDefault: 400;
+$fontWeightSemibold: 600;
+$fontWeightBold: 700;
+$fontSize0: 14px;
+$fontSize1: 16px;
+$fontSize2: 18px;
+$fontSize3: 20px;
+$fontSize4: 26px;
+$fontSize5: 30px;
+$fontSize6: 40px;
+$fontSize7: 100px;
+$fontSize8: 60px;
+$fontSize9: 24px;
+$fontSize10: 12px;
+$fontSize11: 50px;
+$fontSize12: 22px;
+$fontSize13: 15px;
+$fontBaseSize: $fontSize0;
+
+$lineHeight: 24px;
+$lineHeight2: 20px;
+
+$bodyContainerWidth: 920px;
+$bodyContainerMaxWidth: 96%;
+$tightContainerWidth: 790px;
+$containerWidth: 1162px;
+
+$opacity_005: 0.05;
+$opacity_01: 0.1;
+$opacity_02: 0.2;
+$opacity_04: 0.4;
+$opacity_05: 0.5;
+$opacity_06: 0.6;
+$opacity_08: 0.8;
+$opacity_09: 0.9;
+
+$color0: #64bb45;
+$color1: #ffffff;
+$color2: rgba($color1, 0.5);
+$color3: #8f969b;
+$color4: #0f1015;
+$color5: rgba($color1, 0.6);
+$color6: rgba(#172e26, 0.3);
+$color7: rgba($color1, 0.4);
+
+
+$color8: $color3;
+$color9: $color3;
+$color10: rgba($color1, 0.3);
+$color11: $color3;
+$color12: rgba($color1, 0.8);
+$color13: #ffdcab;
+$color14: #775e40;
+$color15: #515358;
+$color16: black;
+
+$colorAccent: $color0;
+$backgroundColorDefault: #010207;
+
+$shadowBox: -6px -6px 10px rgba(11, 27, 38, 0.05);
+
+$transitionStandardTime: .3s;
+$transitionHalfStandardTime: $transitionStandardTime/2;
+
+$gap05: 5px;
+$gap0: 10px;
+$gap1: 15px;
+$gap2: 20px;
+$gap3: 25px;
+$gap4: 30px;
+$gap5: 35px;
+$gap6: 40px;
+$gap7: 45px;
+$gap8: 55px;
+$gap9: 75px;
+$gap10: 100px;
+$gap11: 120px;
+$gap12: 190px;
+$gap13: 18px;
+$gap14: 280px;
+$gap15: 70px;
+$gap16: 160px;
+
+:root {
+    --gap0: #{$gap0};
+    --gap1: #{$gap1};
+    --gap2: #{$gap2};
+    --gap3: #{$gap3};
+    --gap4: #{$gap4};
+    --gap5: #{$gap5};
+    --gap6: #{$gap6};
+    --gap7: #{$gap7};
+    --gap8: #{$gap8};
+    --gap9: #{$gap9};
+    --gap10: #{$gap10};
+    --gap11: #{$gap11};
+    --gap12: #{$gap12};
+    --gap13: #{$gap13};
+}
+
+@media (max-width: 1000px) {
+    :root {
+        --gap0: #{9px};
+        --gap1: #{14px};
+        --gap2: #{18px};
+        --gap3: #{23px};
+        --gap4: #{28px};
+        --gap5: #{32px};
+        --gap6: #{37px};
+        --gap7: #{42px};
+        --gap8: #{50px};
+        --gap9: #{65px};
+        --gap10: #{90px};
+        --gap11: #{110px};
+    }
+}
+
+@media (max-width: 700px) {
+    :root {
+        --gap0: #{8px};
+        --gap1: #{13px};
+        --gap2: #{15px};
+        --gap3: #{21px};
+        --gap4: #{25px};
+        --gap5: #{28px};
+        --gap6: #{34px};
+        --gap7: #{38px};
+        --gap8: #{45px};
+        --gap9: #{60px};
+        --gap10: #{80px};
+        --gap11: #{100px};
+    }
+}

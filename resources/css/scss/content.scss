@@ -1,0 +1,129 @@
+main{
+    position: relative;
+
+    .main_bg-img{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .server_benefits-container {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: $gap6;
+        margin-bottom: $gap14;
+        position: relative;
+
+        .element {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 400px;
+            height: 100%;
+            min-height: 310px;
+            border-right: 1px solid $color4;
+            padding: calc(#{$gap0} + #{$gap8}) 51px;
+
+            &:last-child {
+                border-right: 0px solid $color4;
+            }
+
+            h2 {
+                color: $color0;
+                font-size: $fontSize11;
+                font-weight: 300;
+                letter-spacing: 0.55px;
+                margin: 0;
+            }
+
+            h3{
+                color: $color1;
+                font-size: $fontSize12;
+                font-weight: 300;
+                letter-spacing: 0.55px;
+                margin: $gap0 0;
+            }
+
+            p {
+                font-size: $fontSize13;
+                font-weight: $fontWeightLight;
+                color: $color2;
+                line-height: $gap2;
+                text-align: center;
+                margin: 0;
+                max-width: 220px;
+            }
+        }
+
+        @media (max-width: 1163px) {
+            flex-direction: column;
+            padding-top: 50px;
+
+            .element {
+                flex-direction: row !important;
+                width: 100% !important;
+                justify-content: flex-start;
+                min-height: auto !important;
+                padding: $gap2 5% $gap2 5% !important;
+                border-bottom: 1px solid $color4;
+
+                &:last-child {
+                    border-bottom: 0px solid $color4;
+                }
+
+
+                h2 {
+                    width: 20%;
+                    text-align: center;
+                    margin: 0 $gap6;
+                }
+
+                h3{
+                    min-width: 300px;
+                }
+
+                p {
+                    width: 65%;
+                    text-align: left !important;
+                }
+            }
+        }
+
+        @media (max-width: 880px) {
+            padding: 20px 0;
+
+            .element {
+                padding: $gap2 $gap2 $gap2 5% !important;
+            }
+        }
+
+        @media (max-width: 850px) {
+            .element {
+                flex-direction: column !important;
+                padding: $gap6 5% !important;
+
+                h2 {
+                    width: 100%;
+                }
+
+                h3{
+                    min-width: unset;
+                }
+
+                p {
+                    width: 80%;
+                    text-align: center !important;
+                }
+            }
+        }
+
+        @media (max-width: 720px){
+            margin-bottom: $gap11;
+        }
+    }
+}
